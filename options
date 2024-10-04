@@ -1,0 +1,6 @@
+--prefix=/usr/opt/sn/ --with-nghttp2=/usr/opt/sn/ \
+--with-ca-bundle=/etc/ssl/cacert.pem --with-zlib=/usr/opt/sn/ \
+--with-openssl=/usr/opt/sn/ --with-libidn2=/ usr/opt/sn/ \
+--enable-gopher --disable-silent-rules --disable-pthreads \
+--disable-threaded-resolver --enable-shared 2>&1 | tee \
+../curl-7.80.0.config.003.log\
